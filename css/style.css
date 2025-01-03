@@ -1,0 +1,30 @@
+#homepagebody {
+    background-color: rgb(22,63,105);
+}
+
+#homepagemain {
+    color: white;
+}
+
+#homepageheader p {
+    color: white;
+}
+
+#homepageheader a {
+    color: white;
+}
+
+#homepagefooter h5{
+    color: white;
+}
+
+#homepagefooter a {
+    color: white;
+}
+
+#homepagefooter a:hover{
+    color: red;
+    font-size: 1.1em;
+}
+
+
