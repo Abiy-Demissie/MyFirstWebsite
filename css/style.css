@@ -1,28 +1,17 @@
-#homepagebody {
+body {
     background-color: rgb(22,63,105);
+    margin: 0;
 }
 
-#homepagemain {
+.main {
     color: white;
 }
 
-#homepageheader p {
+.footer a h5{
     color: white;
 }
 
-#homepageheader a {
-    color: white;
-}
-
-#homepagefooter h5{
-    color: white;
-}
-
-#homepagefooter a {
-    color: white;
-}
-
-#homepagefooter a:hover{
+.footer a:hover{
     color: red;
     font-size: 1.1em;
 }
@@ -39,7 +28,7 @@
 }
 
 .pagination a.active{
-    background-color: hsl(120, 100%, 70%);
+    background-color: rgb(70,94,133);
     font-weight: bold;
     border-radius: 5px;
 }
@@ -48,4 +37,26 @@
     background-color: hsl(0, 0%, 77%);
     border-radius: 5px;
 }
+
+.navigationbar {
+    background-color: white;
+    padding: 10px;
+    text-align: right;
+    overflow: hidden;
+}
+
+.navigationbar a{
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 17px;
+    color: grey;
+}
+
+.navigationbar a:hover {
+    background-color: rgb(62,170,242);
+
+}
+
+
+
 
